@@ -1,0 +1,249 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+h1{
+    padding-top: 290px;
+    padding-left: 30px;
+    padding-bottom: 19px;
+   
+    color: rgb(255, 136, 0);
+    font-size: 60px;
+    
+    font-family: 'Play', sans-serif;
+   
+    
+    
+}
+header{
+    background-color:rgba(104,159,56,255);
+    background-image: url(Management.png);
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-attachment: fixed;
+  
+}
+nav{
+    background-color: rgb(255, 180, 68);
+    position: sticky;
+    top:0px;
+   padding: 20px;
+   font-size: 23px;
+   padding-left: 0px;
+
+}
+nav a{
+    padding: 20px;
+    text-decoration: none;
+    color:rgb(44, 63, 15);
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 1px;
+    /* padding-left:  */
+   
+}
+nav .home{
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(126, 90, 23);
+  
+    color: rgb(255, 255, 255);
+}
+nav a:hover{ 
+    color: rgb(255, 255, 255);   
+}
+
+
+    
+.box{
+    width:80%;
+    height: 280px;
+    /* border: 1px solid black; */
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(50%,1fr));
+            grid-auto-rows: 280px;
+            margin-left: 10%;
+            background-color: aquamarine;
+    
+            
+}
+
+/* .box1,.box2{
+    border:1px solid black;
+
+
+} */
+.box1{
+    padding: 20px;
+}
+.box p{
+    text-align: center;
+}
+.box h3{
+    text-align: center;
+    font-size: 100px;
+    padding-top: 25px;
+    font-family: 'Varela Round', sans-serif;
+    color: orange;
+}
+.box .drop{
+    text-align: center;
+}
+.box2{
+    padding: 20px;
+}
+.box .faculty_profile{
+    text-align: center;
+}
+a input[type="submit"]{
+    background-color: rgb(141, 209, 14);
+    color:rgb(77, 77, 77);
+    border:0px;
+    padding:15px;
+    /* width:40%; */
+    border-radius: 7px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+a input[type="submit"]:hover{
+    background-color: rgb(166, 255, 0);
+    cursor: pointer;
+}
+.box1 p{
+    color: orange;
+    padding-top: 20px;
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    
+}
+.box2 p{
+    font-size: larger;
+    padding: 10px;
+}
+.box2>p:nth-child(2){
+    font-size: 20px;
+    color:rgb(238, 255, 160);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.7px;
+}
+.box2>p:nth-child(3){
+    font-size: 28px;
+    color:greenyellow;
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 0.7px;
+}
+.drop>a>input[type="submit"]{
+    background-color: rgb(71, 71, 71);
+    padding: 13px;
+    color: rgb(255, 255, 255);
+    border:0px;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.drop>a>input[type="submit"]:hover{
+    background-color: rgb(141, 141, 141);
+ 
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+   
+}
+.box{
+    background-color: rgb(14, 172, 211);
+    border-radius: 10px;
+    margin-bottom: 50px;
+   
+}
+.container h2{
+   
+    padding-left: 50px;
+    padding-top: 100px;
+    font-size: 70px;
+    background-color: rgb(255, 239, 210);
+    font-family: 'Comfortaa', cursive;
+    font-weight: 1400px;
+    color: rgb(231, 150, 0);
+    
+    word-spacing: 9px;
+}
+body{
+    background-color: rgb(255, 247, 232);
+}
+footer{
+    background-color: black;
+    padding: 25px;
+    text-align: center;
+   
+}
+footer a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 30px;
+    letter-spacing: 5px;
+    word-spacing: 14px;
+}
+footer a:hover{
+    color: white;
+}
+nav a:nth-child(6){
+    padding-left: 30%;
+    letter-spacing: 0px;
+    font-size: 23px;
+    
+}
+nav>a:nth-child(6):hover{
+    cursor:unset;
+    color:rgb(44, 63, 15);
+    
+}
+nav .icon{
+    font-size: 23px;
+}
+nav a:nth-child(6) > .title{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 60px;
+}
+nav a:nth-child(7){
+    color:red;
+}
+nav a:nth-child(7):hover{
+background-color: rgb(255, 95, 95);
+color:white;
+
+}
+/* .logout{
+    text-align: right;
+    padding: 20px;
+    padding-right: 0%;
+  
+   background-color:rgb(255, 239, 210);
+   position: sticky;
+   top:68px;
+  
+
+
+} */
+/* .logout a{
+    text-decoration: none;
+    font-size: 30px;
+    color:green;
+    margin-left: 80%;
+    background-color: aqua;
+    padding: 15px;
+    
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+
+}
+.logout a:hover{
+    
+background-color: red;
+color:white;
+
+} */

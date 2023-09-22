@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Materials</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+         a{
+             text-decoration: none;
+         }
+        h1{
+            padding:70px;
+            background-image: url(books.jpg);
+          position:sticky;
+          top:0px;
+         color: white;
+         font-family:sans-serif;
+         letter-spacing: 3px;
+         word-spacing: 10px;
+         font-size: 50px;
+         margin:0px;
+         margin-bottom: 80px;
+         
+           
+        }
+       .content{
+          
+        display: flex;
+        width:100%;
+   
+        flex-wrap:wrap;
+        gap: 20px;
+        margin-left: 7%;
+       } 
+    .box{
+        /* border:1px solid black; */
+        width: 400px;
+        height: 350px;
+
+    }
+    .top{
+        height: 80%;
+        margin: 10px;
+        /* border: 1px solid rgba(0, 0, 0, 0.205); */
+        margin-bottom: 0px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+    .bottom{
+        height: 10%;
+        margin: 10px;
+        margin-top: 0px;
+        border: 1px solid black;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+       #boxa>.top{
+        background-color: rgba(70,64,88,255);
+        background-image: url(dbms.jpeg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y:50px ;
+       } 
+      #boxb>.top{
+       background-image: url(COA.jpg);background-size: 135%;background-repeat: no-repeat;
+       background-position-x: -70px;
+       } 
+      #boxc>.top{
+       background-image: url(DSA.jpg);background-size: 150%;background-repeat: no-repeat;background-position-x: -100px;
+       } 
+      #boxd>.top{
+       background-image: url(Data\ Science.jpg);background-size: 135%;background-repeat: no-repeat;
+       /* background-position-x: -150px; */
+       } 
+      #boxe>.top{
+       background-image: url(Java.jpg);background-size: 150%;background-repeat: no-repeat;
+       /* background-position-x: -150px; */
+       } 
+      #boxf>.top{
+       background-image: url(Biology.jpeg);background-size: 100%;background-repeat: no-repeat;
+       /* background-position-x: -150px; */
+       background-position-y: -40px;
+       } 
+       
+   
+  
+       a:hover{
+           cursor: pointer;
+       }
+       .bottom{
+           text-align: center;
+           padding:10px;
+           font-family: sans-serif;
+           background-color: lightcyan;
+           border:0px;
+           border-top: 1px rgba(0, 0, 0, 0.418) solid;
+           color: darkblue;
+       }
+       body{
+          background-color: rgb(190, 190, 190);
+       }
+ 
+    </style>
+</head>
+<body>
+    <h1>Study Materials</h1>
+    
+    <div class="content">
+       <a href ="dbms.php"> <div class="box" id="boxa"><div class="top"></div><div class="bottom">DBMS</div></div></a>
+       <a href="coa.php"><div class="box" id="boxb"><div class="top"></div><div class="bottom">COA</div></div>
+       <a href="dsa.php"><div class="box" id="boxc"><div class="top"></div><div class="bottom">Data Structre & Algo</div></div></a>
+       <a href="Ds.php"><div class="box" id="boxd"><div class="top"></div><div class="bottom">Data Science</div></div></a>
+       <a href="java.php"><div class="box" id="boxe"><div class="top"></div><div class="bottom">Java Basics</div></div></a>
+       <a href="bio.php"><div class="box" id="boxf"><div class="top"></div><div class="bottom">Biology</div></div></a>
+    </div>
+   
+
+</body>
+</html>
